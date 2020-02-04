@@ -7,4 +7,4 @@ RUN yarn install --prod; \
     npm rebuild node-sass
 	
 
-CMD ./node_modules/.bin/vue-cli-service lint
+CMD /node_modules/.bin/vue-cli-service lint
